@@ -85,6 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias ip='ip --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -100,7 +101,6 @@ alias d='date'
 alias shutdown='sudo shutdown -h now'
 alias wolprox='wakeonlan'
 alias wolpc='wakeonlan'
-alias ip='ip --color=auto'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
